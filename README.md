@@ -9,23 +9,23 @@ I'm also doing a basic "loops and maps" based implementation using Java.
 Run a Nushell solution with the example input:  
 
 ```nushell
-nu day-1-part-1.nu --example
+nu day-01-part-1.nu --example
 ```
 
 Run a Nushell solution with the full input:
 
 ```nushell
-nu day-1-part-1.nu
+nu day-01-part-1.nu
 ```
 
 Run a Java solution with the example input:
 
 ```nushell
-EXAMPLE=true java --source 21 --enable-preview day_1_part_1.java
+EXAMPLE=true java --source 21 --enable-preview day_01_part_1.java
 ```
 
 Run a Java solution with the full input:
 
 ```nushell
-java --source 21 --enable-preview day_1_part_1.java
+java --source 21 --enable-preview day_01_part_1.java
 ```
