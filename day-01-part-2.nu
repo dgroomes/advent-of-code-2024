@@ -1,6 +1,6 @@
 def main [--example] {
     let variant = if $example { "example" } else { "full" }
-    let file = $"input/day-1-($variant).txt"
+    let file = $"input/day-01-($variant).txt"
     let input = open $file | str replace --all --regex "[ ]+ " (char tab) | from tsv --noheaders
 
     let left = $input | get column0

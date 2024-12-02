@@ -7,9 +7,9 @@ import java.util.HashMap;
 void main() throws IOException {
     String path;
     if (System.getenv().containsKey("EXAMPLE")) {
-        path = "input/day-1-example.txt";
+        path = "input/day-01-example.txt";
     } else {
-        path = "input/day-1-full.txt";
+        path = "input/day-01-full.txt";
     };
 
     var left = new ArrayList<Long>();
