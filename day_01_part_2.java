@@ -10,7 +10,7 @@ void main() throws IOException {
         path = "input/day-01-example.txt";
     } else {
         path = "input/day-01-full.txt";
-    };
+    }
 
     var left = new ArrayList<Long>();
     var rCounts = new HashMap<Long, Long>();
