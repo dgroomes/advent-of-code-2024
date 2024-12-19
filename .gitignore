@@ -2,4 +2,6 @@ input/
 .idea/
 out/
 temp/
-.iml
+*.iml
+day_14/part_2/grid.txt
+day_14/part_2_alt/grid.txt
